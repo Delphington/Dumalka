@@ -8,9 +8,9 @@
 
 **🥩 Скачать можно здесь:** 
 
-[HashStore](http://store.nashstore.ru/store/6278ea414891a52a35489fdd) 
+[**HashStore**](http://store.nashstore.ru/store/6278ea414891a52a35489fdd) 
 
-[GitHub](https://github.com/Delphington/Dumalka/releases/tag/Dumalka)
+[**GitHub**](https://github.com/Delphington/Dumalka/releases/tag/Dumalka)
 
 
 # 🔥 1.	Функционал приложения
