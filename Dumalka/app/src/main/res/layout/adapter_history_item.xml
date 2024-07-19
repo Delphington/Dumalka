@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearIds"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_3sdp"
+    android:layout_marginLeft="@dimen/_30sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_3sdp"
+    android:orientation="vertical">
+
+    <com.guanaj.easyswipemenulibrary.EasySwipeMenuLayout
+        android:id="@+id/fullliner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentView="@+id/content"
+        app:leftMenuView="@+id/left"
+        app:rightMenuView="@+id/right">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_85sdp"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/AH_LV_LinearInnerMain_PT_PB"
+            android:paddingBottom="@dimen/_5sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:src="@drawable/ic_user"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:id="@+id/Liner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/_8sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center">
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:id="@+id/gameNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/HA_Game"
+                            android:textColor="@color/AH_A_HeaderText"
+                            android:textSize="@dimen/_20ssp"
+                            android:textStyle="bold" />
+                    </androidx.core.widget.NestedScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/allQuestions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HA_AllQ"
+                        android:textColor="@color/AH_A_DescriptionText"
+                        android:textSize="@dimen/_12ssp"/>
+
+
+                    <TextView
+                        android:id="@+id/rightQuestions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HA_RightQ"
+                        android:textColor="@color/AH_A_DescriptionText"
+                        android:textSize="@dimen/_12ssp"/>
+
+                    <TextView
+                        android:id="@+id/falseQuestions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/HA_UnRightQ"
+                        android:textColor="@color/AH_A_DescriptionText"
+                        android:textSize="@dimen/_12ssp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/ButtonDelete"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:background="@drawable/image_del_game"
+                android:src="@drawable/ic_deletes"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <!--==================================================-->
+        <LinearLayout
+            android:id="@+id/right"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_85sdp"
+            android:background="@color/AH_A_ImageRightBackground"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp">
+
+            <LinearLayout
+                android:id="@+id/LinearEdit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/Game_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_edit"
+                    android:padding="@dimen/_15sdp"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.guanaj.easyswipemenulibrary.EasySwipeMenuLayout>
+</LinearLayout>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ################################################# -->
+    <!-- Не актуально, библиотека юзается -->
+    <!-- ################################################# -->
+
+<!--    &lt;!&ndash;    Main Activity width, height, Margin top, Padding Top&ndash;&gt;-->
+<!--    <dimen name="MA_h_picture">210dp</dimen>-->
+<!--    <dimen name="MA_w_picture_MT">30dp</dimen>-->
+<!--    <dimen name="MA_picture_MR_ML">12dp</dimen>-->
+<!--    <dimen name="MA_picture_MB">9dp</dimen>-->
+<!--    <dimen name="MA_h_Btn">30dp</dimen>-->
+<!--    <dimen name="MA_Btn_MT">21dp</dimen>-->
+<!--    <dimen name="MA_Btn_MR_ML">12dp</dimen>-->
+<!--    <dimen name="MA_Btn_MB">34dp</dimen>-->
+<!--    <dimen name="MA_BtnText_Size">12sp</dimen>-->
+
+<!--    &lt;!&ndash;    Main Activity 2, height, Margin top, Padding Top&ndash;&gt;-->
+<!--    <dimen name="MA2_LinText_PL">15dp</dimen>-->
+<!--    <dimen name="MA2_LinText_MB">10dp</dimen>-->
+<!--    <dimen name="MA2_Text_Size">10sp</dimen>-->
+<!--    <dimen name="MA2_Image_MR_ML">2dp</dimen>-->
+
+<!--    &lt;!&ndash; Main Activity 2 nav_header_main &ndash;&gt;-->
+<!--    <dimen name="MA2_nav_header_Height">130dp</dimen>-->
+<!--    <dimen name="MA2_nav_header_PaddingT">18dp</dimen>-->
+<!--    <dimen name="MA2_nav_header_PaddingL">10dp</dimen>-->
+<!--    <dimen name="MA2_nav_header_PaddingR">10dp</dimen>-->
+<!--    <dimen name="MA2_nav_header_PaddingB">10dp</dimen>-->
+<!--    <dimen name="MA2_nav_header_w_LabelImage">140dp</dimen>-->
+<!--    <dimen name="MA2_nav_header_h_LabelImage">60dp</dimen>-->
+<!--    <dimen name="MA2_nav_header_LabelImage_PR">24dp</dimen>-->
+<!--    <dimen name="MA2_nav_header_w_ThemeImage">30dp</dimen>-->
+<!--    <dimen name="MA2_nav_header_h_ThemeImage">30dp</dimen>-->
+
+<!--    &lt;!&ndash;    Fragment Home  &ndash;&gt;-->
+<!--    <dimen name="FH_h_LinearNumberQ">35dp</dimen>-->
+<!--    <dimen name="FH_LinearNumberQ_MR_ML">11dp</dimen>-->
+<!--    <dimen name="FH_LinearNumberQ_MT">7dp</dimen>-->
+<!--    <dimen name="FH_LinearNumberQ_P">2dp</dimen>-->
+<!--    <dimen name="FH_LinearNumberQ_TxtSize">15sp</dimen>-->
+<!--    <dimen name="FH_LinearQ_MR_ML">21dp</dimen>-->
+<!--    <dimen name="FH_LinearQ_MT_MB">11dp</dimen>-->
+<!--    <dimen name="FH_LinearQ_P">20dp</dimen>-->
+<!--    <dimen name="FH_LinearQ_EdtSize">14sp</dimen>-->
+<!--    <dimen name="FH_LinearQ_w_Image">35dp</dimen>-->
+<!--    <dimen name="FH_LinearMainA_MR_ML">11dp</dimen>-->
+
+<!--    <dimen name="FH_LinearA_Txt_Pl">2dp</dimen>-->
+<!--    <dimen name="FH_LinearA_Txt_Size">18sp</dimen>-->
+<!--    <dimen name="FH_LinearA_Edt_MaxWidth">100dp</dimen>-->
+<!--    <dimen name="FH_LinearA_Edt_PS">2dp</dimen>-->
+<!--    <dimen name="FH_LinearA_w_Image">35dp</dimen>-->
+<!--    <dimen name="FH_LinearA_w_TxtPercent">46dp</dimen>-->
+<!--    <dimen name="FH_LinearA_h_TxtPercent">35dp</dimen>-->
+<!--    <dimen name="FH_LinearA_TxtPercentSize">14sp</dimen>-->
+<!--    <dimen name="FH_LinearA_MT">7dp</dimen>-->
+
+<!--    <dimen name="FH_FirstLinearBtn_MR_ML">11dp</dimen>-->
+<!--    <dimen name="FH_FirstLinearBtn_MT">7dp</dimen>-->
+<!--    <dimen name="FH_Btn_MS_ME">2dp</dimen>-->
+<!--    <dimen name="FH_Btn_txtSize">10sp</dimen>-->
+
+<!--    <dimen name="FH_h_Btn_NewQ">32dp</dimen>-->
+<!--    <dimen name="FH_h_Btn_Sent">32dp</dimen>-->
+<!--    <dimen name="FH_h_Btn_NewGame">32dp</dimen>-->
+<!--    <dimen name="FH_h_Btn_History">32dp</dimen>-->
+
+<!--    <dimen name="FH_SecondLinearBtn_MR_ML">11dp</dimen>-->
+<!--    <dimen name="FH_SecondLinearBtn_MT">7dp</dimen>-->
+<!--    <dimen name="FH_SecondLinearBtn_Btn_ME">5dp</dimen>-->
+
+
+<!--    &lt;!&ndash;    Fragment Search System&ndash;&gt;-->
+<!--    <dimen name="FS_Linear_MT">7dp</dimen>-->
+<!--    <dimen name="FS_Linear_MR_ML">11dp</dimen>-->
+<!--    <dimen name="FS_TextSize">17sp</dimen>-->
+<!--    <dimen name="FS_SwitchCompat_MT">4dp</dimen>-->
+<!--    <dimen name="FS_h_Imitator">35dp</dimen>-->
+<!--    <dimen name="FS_thumb_size_w">25dp</dimen>-->
+<!--    <dimen name="FS_thumb_size_h">21dp</dimen>-->
+<!--    <dimen name="FS_thumb_size_r">28dp</dimen>-->
+<!--    <dimen name="FS_track_size_r">21dp</dimen>-->
+
+<!--    &lt;!&ndash;  Fragment SentAuthor &ndash;&gt;-->
+<!--    <dimen name="FSA_LinearI_PR_PL">21dp</dimen>-->
+<!--    <dimen name="FSA_LinearI_PT">21dp</dimen>-->
+<!--    <dimen name="FSA_h_Image">140dp</dimen>-->
+<!--    <dimen name="FSA_h_Btn">32dp</dimen>-->
+<!--    <dimen name="FSA_TextSize">18sp</dimen>-->
+<!--    <dimen name="FSA_Btn_PR_PL">11dp</dimen>-->
+<!--    <dimen name="FSA_Btn_PT_PB">7dp</dimen>-->
+<!--    <dimen name="FSA_BtnTextSize">14sp</dimen>-->
+
+<!--    &lt;!&ndash;  Fragment FAQ &ndash;&gt;-->
+<!--    <dimen name="FAQ_Fr_Linear_P">6dp</dimen>-->
+<!--    <dimen name="FAQ_row_cardCornerRadius">10dp</dimen>-->
+<!--    <dimen name="FAQ_row_cardElevation">2dp</dimen>-->
+<!--    <dimen name="FAQ_cardElevation">12dp</dimen>-->
+<!--    <dimen name="FAQ_header_PT_PB">12dp</dimen>-->
+<!--    <dimen name="FAQ_header_PR_PL">12dp</dimen>-->
+<!--    <dimen name="FAQ_header_TxtSize">14sp</dimen>-->
+<!--    <dimen name="FAQ_body_PR_PL">12dp</dimen>-->
+<!--    <dimen name="FAQ_body_PB">12dp</dimen>-->
+<!--    <dimen name="FAQ_body_TxtSize">13sp</dimen>-->
+
+<!--    &lt;!&ndash;  Activity History &ndash;&gt;-->
+<!--    <dimen name="AH_w_FavImage">49dp</dimen>-->
+<!--    <dimen name="AH_h_FavImage">49dp</dimen>-->
+<!--    <dimen name="AH_FavImage_PB">4dp</dimen>-->
+<!--    <dimen name="AH_FavLinerTxt_PB">4dp</dimen>-->
+<!--    <dimen name="AH_FavLinerTxt_PS">7dp</dimen>-->
+<!--    <dimen name="AH_FavLinerTxt_Header_txt">18sp</dimen>-->
+<!--    <dimen name="AH_FavLinerTxt_Body_txt">11sp</dimen>-->
+<!--    &lt;!&ndash;  Activity History ListView &ndash;&gt;-->
+<!--    <dimen name="AH_LV_MainLinear_M">2dp</dimen>-->
+<!--    <dimen name="AH_LV_MainLinear_ML_MR">4dp</dimen>-->
+<!--    <dimen name="AH_LV_MainLinear_MT">7dp</dimen>-->
+<!--    <dimen name="AH_LV_LinearInnerMain_PT_PB">4dp</dimen>-->
+<!--    <dimen name="AH_LV_h_LinearInnerMain">70dp</dimen>-->
+<!--    <dimen name="AH_LV_w_ImageLeft">49dp</dimen>-->
+<!--    <dimen name="AH_LV_h_ImageLeft">49dp</dimen>-->
+<!--    <dimen name="AH_LV_ImageLeft_MS">7dp</dimen>-->
+<!--    <dimen name="AH_LV_LinearTxt_PS">7dp</dimen>-->
+<!--    <dimen name="AH_LV_h_LinearTxtGame">22dp</dimen>-->
+<!--    <dimen name="AH_LV_TxtGame">12sp</dimen>-->
+<!--    <dimen name="AH_LV_Txt">10sp</dimen>-->
+<!--    <dimen name="AH_LV_w_ImageRight">49dp</dimen>-->
+<!--    <dimen name="AH_LV_h_ImageRight">49dp</dimen>-->
+<!--    <dimen name="AH_LV_ImageRight_ME">7dp</dimen>-->
+<!--    <dimen name="AH_LV_w_LinearRight">56dp</dimen>-->
+<!--    <dimen name="AH_LV_h_LinearRight">70dp</dimen>-->
+<!--    <dimen name="AH_LV_LinearRight_PT_PB">4dp</dimen>-->
+<!--    <dimen name="AH_LV_RightImageRight_P">14dp</dimen>-->
+
+<!--    &lt;!&ndash;  Activity Question &ndash;&gt;-->
+<!--    &lt;!&ndash;  Activity Question ListView &ndash;&gt;-->
+<!--    <dimen name="AQ_LV_MainLinear_M">2dp</dimen>-->
+<!--    <dimen name="AQ_LV_MainLinear_ML_MR">4dp</dimen>-->
+<!--    <dimen name="AQ_LV_MainLinear_MT">7dp</dimen>-->
+<!--    <dimen name="AQ_LV_h_LinearInnerMain">49dp</dimen>-->
+<!--    <dimen name="AQ_LV_LinearInnerMain_P">7dp</dimen>-->
+<!--    <dimen name="AQ_LV_h_TxtNumber">28dp</dimen>-->
+<!--    <dimen name="AQ_LV_TxtNumberSize">16sp</dimen>-->
+<!--    <dimen name="AQ_LV_Linear_Txt_PS">7dp</dimen>-->
+<!--    <dimen name="AQ_LV_TxtSize">14sp</dimen>-->
+<!--    <dimen name="AQ_LV_w_ImageCheck">28dp</dimen>-->
+<!--    <dimen name="AQ_LV_h_ImageCheck">28dp</dimen>-->
+<!--    <dimen name="AQ_LV_ImageCheck_MR_ML">4dp</dimen>-->
+<!--    <dimen name="AQ_LV_w_LinearRight">126dp</dimen>-->
+<!--    <dimen name="AQ_LV_h_LinearImageFAV">49dp</dimen>-->
+<!--    <dimen name="AQ_LV_w_ImageFAV">42dp</dimen>-->
+<!--    <dimen name="AQ_LV_h_ImageFAV">42dp</dimen>-->
+<!--    <dimen name="AQ_LV_ImageFAV_PR_PL">11dp</dimen>-->
+<!--    <dimen name="AQ_LV_h_LinearImageDel">49dp</dimen>-->
+<!--    <dimen name="AQ_LV_w_ImageDel">42dp</dimen>-->
+<!--    <dimen name="AQ_LV_h_ImageDel">42dp</dimen>-->
+<!--    <dimen name="AQ_LV_ImageDel_PR_PL">11dp</dimen>-->
+
+<!--    <dimen name="AQ_LV_StyleNumber_PR_PL">8dp</dimen>-->
+<!--    <dimen name="AQ_LV_StyleNumber_PT_PB">2dp</dimen>-->
+<!--    <dimen name="AQ_LV_StyleNumber_Radius">10dp</dimen>-->
+
+<!--    &lt;!&ndash;  Activity Favorite &ndash;&gt;-->
+<!--    &lt;!&ndash;  Activity Favorite Listview&ndash;&gt;-->
+<!--    <dimen name="AF_LVf_MainLinear_M">2dp</dimen>-->
+<!--    <dimen name="AF_LV_MainLinear_ML_MR">4dp</dimen>-->
+<!--    <dimen name="AF_LV_MainLinear_MT">7dp</dimen>-->
+<!--    <dimen name="AF_LV_h_LinearInnerMain">49dp</dimen>-->
+<!--    <dimen name="AF_LV_LinearInnerMain_P">7dp</dimen>-->
+<!--    <dimen name="AF_LV_h_TxtNumber">28dp</dimen>-->
+<!--    <dimen name="AF_LV_TxtNumberSize">16sp</dimen>-->
+<!--    <dimen name="AF_LV_Linear_Txt_PS">7dp</dimen>-->
+<!--    <dimen name="AF_LV_TxtSize">14sp</dimen>-->
+<!--    <dimen name="AF_LV_w_ImageCheck">28dp</dimen>-->
+<!--    <dimen name="AF_LV_h_ImageCheck">28dp</dimen>-->
+<!--    <dimen name="AF_LV_ImageCheck_MR_ML">4dp</dimen>-->
+<!--    <dimen name="AF_LV_w_LinearRight">63dp</dimen>-->
+<!--    <dimen name="AF_LV_h_LinearRight">49dp</dimen>-->
+<!--    <dimen name="AF_LV_w_ImageDel">42dp</dimen>-->
+<!--    <dimen name="AF_LV_h_ImageDel">42dp</dimen>-->
+<!--    <dimen name="AQ_LV_ImageDel_P">14dp</dimen>-->
+
+<!--    &lt;!&ndash;  DIALOGS&ndash;&gt;-->
+<!--    &lt;!&ndash;  dialog del game &ndash;&gt;-->
+<!--    <dimen name="DDG_w_Linear">210dp</dimen>-->
+<!--    <dimen name="DDG_h_Linear">266dp</dimen>-->
+<!--    <dimen name="DDG_w_Image">126dp</dimen>-->
+<!--    <dimen name="DDG_h_Image">126dp</dimen>-->
+<!--    <dimen name="DDG_Header_TxtSize">18sp</dimen>-->
+<!--    <dimen name="DDG_Body_PR_PL">18dp</dimen>-->
+<!--    <dimen name="DDG_Body_TxtSize">14sp</dimen>-->
+<!--    <dimen name="DDG_Btn_TxtSize">10sp</dimen>-->
+<!--    <dimen name="DDG_h_Btn">32dp</dimen>-->
+<!--    <dimen name="DDG_Btn_PR_PL">10dp</dimen>-->
+<!--    <dimen name="DDG_Btn_MT">7dp</dimen>-->
+<!--    <dimen name="DDG_Btn_MB">4dp</dimen>-->
+
+<!--    &lt;!&ndash;  dialog edit game &ndash;&gt;-->
+<!--    <dimen name="DEG_w_linear">210dp</dimen>-->
+<!--    <dimen name="DEG_h_linear">168dp</dimen>-->
+<!--    <dimen name="DEG_Edt_MR_ML">7dp</dimen>-->
+<!--    <dimen name="DEG_Edt_MT">7dp</dimen>-->
+<!--    <dimen name="DEG_Edt_DrawableP">9dp</dimen>-->
+<!--    <dimen name="DEG_Edt_P">9dp</dimen>-->
+<!--    <dimen name="DEG_Edt_PS_PE">9dp</dimen>-->
+<!--    <dimen name="DEG_Edt_LinearBtn_MT_MB">14dp</dimen>-->
+<!--    <dimen name="DEG_Edt_LinearBtn_PR_PL">7dp</dimen>-->
+<!--    <dimen name="DEG_Edt_h_Btn">34dp</dimen>-->
+<!--    <dimen name="DEG_Edt_Btn_MT">7dp</dimen>-->
+<!--    <dimen name="DEG_Edt_Btn_MS">7dp</dimen>-->
+<!--    <dimen name="DEG_Edt_Btn_TextSize">10sp</dimen>-->
+
+<!--    &lt;!&ndash;  dialog No Internet &ndash;&gt;-->
+<!--    <dimen name="DNI_w_linear">210dp</dimen>-->
+<!--    <dimen name="DNI_h_linear">280dp</dimen>-->
+<!--    <dimen name="DNI_w_Image">140dp</dimen>-->
+<!--    <dimen name="DNI_h_Image">140dp</dimen>-->
+<!--    <dimen name="DNI_Header_TxtSize">18sp</dimen>-->
+<!--    <dimen name="DNI_Body_Txt_PR_PL">18dp</dimen>-->
+<!--    <dimen name="DNI_Body_Txt_PT">7dp</dimen>-->
+<!--    <dimen name="DNI_Body_TxtSize">14sp</dimen>-->
+<!--    <dimen name="DNI_LinearBtn_PR_PL">14dp</dimen>-->
+<!--    <dimen name="DNI_LinearBtn_PB">7dp</dimen>-->
+<!--    <dimen name="DNI_h_Btn">32dp</dimen>-->
+<!--    <dimen name="DNI_Btn_MT">7dp</dimen>-->
+<!--    <dimen name="DNI_Btn_MS">7dp</dimen>-->
+<!--    <dimen name="DNI_Btn_TextSize">10sp</dimen>-->
+
+<!--    &lt;!&ndash;  dialog No Question &ndash;&gt;-->
+<!--    <dimen name="DNQ_w_linear">210dp</dimen>-->
+<!--    <dimen name="DNQ_h_linear">224dp</dimen>-->
+<!--    <dimen name="DNQ_w_Image">105dp</dimen>-->
+<!--    <dimen name="DNQ_h_Image">105dp</dimen>-->
+<!--    <dimen name="DNQ_Image_MT">7dp</dimen>-->
+<!--    <dimen name="DNQ_Header_TxtSize">18sp</dimen>-->
+<!--    <dimen name="DNQ_Header_MT">7dp</dimen>-->
+<!--    <dimen name="DNQ_Body_Txt_PR_PL">18dp</dimen>-->
+<!--    <dimen name="DNQ_Body_Txt_MT">4dp</dimen>-->
+<!--    <dimen name="DNQ_Body_TxtSize">14sp</dimen>-->
+<!--    <dimen name="DNQ_LinearBtn_MR_ML">14dp</dimen>-->
+<!--    <dimen name="DNQ_LinearBtn_MB">14dp</dimen>-->
+<!--    <dimen name="DNQ_LinearBtn_MT">4dp</dimen>-->
+<!--    <dimen name="DNQ_h_Btn">32dp</dimen>-->
+<!--    <dimen name="DNQ_Btn_MT">7dp</dimen>-->
+<!--    <dimen name="DNQ_Btn_MS">7dp</dimen>-->
+<!--    <dimen name="DNQ_Btn_TextSize">10sp</dimen>-->
+
+
+<!--    &lt;!&ndash;     Styles  &ndash;&gt;-->
+<!--    &lt;!&ndash;     Toast  &ndash;&gt;-->
+<!--    <dimen name="MinNameToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="MinNameToast_Txt_Radius">25dp</dimen>-->
+
+<!--    <dimen name="NoneSSToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="NoneSSToast_Txt_Radius">25dp</dimen>-->
+
+<!--    <dimen name="FirstQToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="FirstQToast_Txt_Radius">25dp</dimen>-->
+
+<!--    <dimen name="LastQToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="LastQToast_Txt_Radius">25dp</dimen>-->
+
+<!--    <dimen name="CorrectAnswerToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="CorrectAnswerToast_Txt_Radius">25dp</dimen>-->
+
+<!--    <dimen name="FavoriteToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="FavoriteToast_Txt_Radius">25dp</dimen>-->
+
+<!--    <dimen name="DeleteFavoriteToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="DeleteFavoriteToast_Txt_Radius">25dp</dimen>-->
+
+<!--    <dimen name="EnterQuestionToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="EnterQuestionToast_Txt_Radius">25dp</dimen>-->
+
+<!--    <dimen name="EnterAnswerToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="EnterAnswerToast_Txt_Radius">25dp</dimen>-->
+
+<!--    <dimen name="ErrorToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="ErrorToast_Txt_Radius">25dp</dimen>-->
+
+<!--    <dimen name="OneMoreBackToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="OneMoreBackToast_Txt_Radius">25dp</dimen>-->
+
+<!--    <dimen name="TurnOnImitationToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="TurnOnImitationToast_Txt_Radius">25dp</dimen>-->
+
+<!--    <dimen name="TurnOffImitationToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="TurnOffImitationToast_Txt_Radius">25dp</dimen>-->
+
+<!--    <dimen name="СurrentQuestionToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="СurrentQuestionToast_Txt_Radius">25dp</dimen>-->
+
+<!--    <dimen name="ThisQRightToast_Txt_Size">14sp</dimen>-->
+<!--    <dimen name="ThisQRightToast_Txt_Radius">25dp</dimen>-->
+
+
+
+</resources>

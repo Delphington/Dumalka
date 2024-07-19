@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "154566813148",
+    "project_id": "dumalka-672dd",
+    "storage_bucket": "dumalka-672dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154566813148:android:288e98a35cb9fe59f29b19",
+        "android_client_info": {
+          "package_name": "ru.myitschool.vsu2021.daimidzenko.com.dumalka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154566813148-t628bq64sg41ou2bnkhr7pebjjj95bbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHGJMu7ULsXzXUl4Eoceer0ThMyHGRXak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154566813148-t628bq64sg41ou2bnkhr7pebjjj95bbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

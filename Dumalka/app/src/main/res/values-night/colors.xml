@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#2D2D2D</color>
+    <!--    Верхний тул бар   #4AB69F -->
+    <color name="purple_500">#2D2D2D</color>
+
+    <color name="purple_700">#2D2D2D</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <!--        Main Activity        -->
+    <color name="MA_Background">#3E3D40</color>
+    <color name="MA_BtnText">#FFFFFF</color>
+    <color name="MA_BtnTrueSolid">#328D7C</color>
+    <color name="MA_BtnTrueStroke">#246F5E</color>
+    <color name="MA_BtnFalseSolid">#4FBEA6</color>
+    <color name="MA_BtnFalseStroke">#368271</color>
+
+    <!--  fragment home-->
+    <color name="FH_Background">#3E3D40</color>
+    <color name="FH_TextLightBlack">#FFFFFF</color>
+    <color name="FH_TextLightGray">#E6E6E6</color>
+    <color name="FH_EditText">#FFFFFF</color>
+    <color name="FH_TextHint">#969696</color>
+    <color name="FH_ImageMicro">#D5D5D5</color>
+    <color name="FH_ImageBack">#E7E7E7</color>
+    <color name="FH_ImageNext">#E7E7E7</color>
+    <!-- Style Layout   -->
+    <color name="FH_StyleLayoutNumber">#D6D5D5</color>
+    <color name="FH_StyleLayoutMain">#D6D5D5</color>
+    <color name="FH_StyleLayoutQuestion">#D6D5D5</color>
+
+    <color name="FH_BtnNewQTrueSolid">#4AB29E</color>
+    <color name="FH_BtnNewQTrueStroke">#2f8774</color>
+    <color name="FH_BtnNewQFalseSolid">#414141</color>
+    <color name="FH_BtnNewQFalseStroke">#C3C3C3</color>
+
+    <color name="FH_BtnSendTrueSolid">#409787</color>
+    <color name="FH_BtnSendTrueStroke">#236A5B</color>
+    <color name="FH_BtnSendFalseSolid">#5BC5AE</color>
+    <color name="FH_BtnSendFalseStroke">#3F9682</color>
+
+    <color name="FH_BtnNewGTrueSolid">#4AB29E</color>
+    <color name="FH_BtnNewGTrueStroke">#2f8774</color>
+    <color name="FH_BtnNewGFalseSolid">#414141</color>
+    <color name="FH_BtnNewGFalseStroke">#C3C3C3</color>
+
+    <color name="FH_BtnHistoryTrueSolid">#4AB29E</color>
+    <color name="FH_BtnHistoryTrueStroke">#2f8774</color>
+    <color name="FH_BtnHistoryFalseSolid">#414141</color>
+    <color name="FH_BtnHistoryFalseStroke">#C3C3C3</color>
+
+    <color name="FH_BtnBackNext">#797979</color>
+    <color name="FH_BtnMicro">#797979</color>
+
+    <color name="FH_LayoutRightSolid">#5ECD86</color>
+    <color name="FH_LayoutRightStroke">#298B4C</color>
+    <color name="FH_LayoutTheBestSolid">#4FB5D8</color>
+    <color name="FH_LayoutTheBestStroke">#309AF8</color>
+
+    <!--    fragment Search System   -->
+    <color name="SS_Background">#3E3D40</color>
+    <color name="SS_TextLightGray">#FFFFFF</color>
+    <color name="SS_SwitchThumbTrueSolid">#FFF</color>
+    <color name="SS_SwitchThumbTrueStroke">#28AEA0</color>
+    <color name="SS_SwitchThumbFalseSolid">#FFF</color>
+    <color name="SS_SwitchThumbFalseStroke">#28AEA0</color>
+    <color name="SS_SwitchTrackTrueSolid">#73EDDA</color>
+    <color name="SS_SwitchTrackFalseSolid">#cdcdcd</color>
+
+    <!--    fragment Send Author   -->
+    <color name="SA_Background">#3E3D40</color>
+    <color name="SA_TextLightGray">#FFFFFF</color>
+    <color name="SA_TextLightBlack">#FFFFFF</color>
+
+    <color name="SA_BtnSendTrueSolid">#328D7C</color>
+    <color name="SA_BtnSendTrueStroke">#246F5E</color>
+    <color name="SA_BtnSendFalseSolid">#4FBEA6</color>
+    <color name="SA_BtnSendFalseStroke">#368271</color>
+
+
+    <!--    fragment About App   -->
+    <color name="AA_Background">#3E3D40</color>
+    <color name="AA_BackgroundRow">#797979</color>
+    <color name="AA_HeaderText">#FFFFFF</color>
+    <color name="AA_DescriptionText">#F8F8F8</color>
+    <color name="AA_ImageQ">#F8F8F8</color>
+
+    <!--    Activity History   -->
+    <color name="AH_Background">#3E3D40</color>
+    <color name="AH_BackgroundFavorite">#08907F</color>
+    <color name="AH_BackgroundListView">#535353</color>
+    <color name="AH_FavoriteImage">#FFFFFFFF</color>
+    <color name="AH_FavoriteHeaderText">#FFFFFFFF</color>
+    <color name="AH_DescriptionText">#FFFFFFFF</color>
+    <color name="AH_BackgroundBetweenItem">#CBCBCB</color>
+    <!--    Activity History Adapter   -->
+    <color name="AH_A_ImageLeft">#FFFFFF</color>
+    <color name="AH_A_HeaderText">#FFFFFF</color>
+    <color name="AH_A_DescriptionText">#FFFFFF</color>
+    <color name="AH_A_ImageDelete">#FFFFFF</color>
+    <color name="AH_A_ImageDeleteBackground">#DE6F6F</color>
+    <color name="AH_A_ImageRightBackground">#69CCFD</color>
+    <color name="AH_A_ImageRight">#FFFFFFFF</color>
+
+    <color name="AH_TxtColor_No_Q">#5C5C5C</color>
+
+    <!--    Activity History Dialog   -->
+    <color name="AH_D_Background">#424242</color>
+    <color name="AH_D_Image">#FFFFFF</color>
+    <color name="AH_D_HeaderText">#FFFFFF</color>
+    <color name="AH_D_DescriptionText">#FFFFFF</color>
+    <color name="AH_D_ButtonText">#FFFFFF</color>
+
+    <color name="AH_D_ButtonTrueSolid">#4AB29E</color>
+    <color name="AH_D_ButtonTrueStroke">#2f8774</color>
+    <color name="AH_D_ButtonFalseSolid">#414141</color>
+    <color name="AH_D_ButtonFalseStroke">#CDCDCD</color>
+
+
+
+    <!--    Activity Question   -->
+    <color name="AQ_Background">#3E3D40</color>
+    <!--    Activity Question Adapter   -->
+    <color name="AQ_A_Background">#FFFFFF</color>
+    <color name="AQ_A_BackgroundTextNumber">#777777</color>
+    <color name="AQ_A_TextNumber">#777777</color>
+    <color name="AQ_A_Text">#FFFFFF</color>
+    <color name="AQ_A_CheckImage">#FFFFFF</color>
+
+    <color name="AQ_A_BackgroundFavorite">#77D9CF</color>
+    <color name="AQ_A_FavoriteImage">#FFFFFF</color>
+    <color name="AQ_A_BackgroundDelete">#ED6464</color>
+    <color name="AQ_A_DeleteImage">#E7E7E7</color>
+    <color name="AQ_A_backgroundLinear">#535353</color>
+    <color name="AQ_A_backgroundLinearFavorite">#049F9E</color>
+
+
+    <!--    Activity Favorite   -->
+    <color name="AF_Background">#3E3D40</color>
+    <color name="AF_BetweenItem">#3E3D40</color>
+    <!--    Activity Favorite Adapter   -->
+    <color name="AF_A_Background">#535353</color>
+    <color name="AF_A_NumberBackgroundSolid">#FFFFFF</color>
+    <color name="AF_A_NumberBackgroundStroke">#FF000000</color>
+    <color name="AF_A_NumberText">#777777</color>
+    <color name="AF_A_Text">#FFFFFF</color>
+    <color name="AF_A_CheckImage">#FFFFFF</color>
+    <color name="AF_A_BackgroundDelete">#77D9CF</color>
+    <color name="AF_A_DeleteImage">#FFFFFF</color>
+
+    <!--    Dialog No Internet   -->
+    <color name="DNI_Background">#424242</color>
+    <color name="DNI_Image">#FFFFFF</color>
+    <color name="DNI_HeaderText">#FFFFFF</color>
+    <color name="DNI_DescriptionText">#FFFFFF</color>
+    <color name="DNI_TextBtn">#FFFFFF</color>
+
+    <color name="DNI_BtnBackTrueSolid">#FF6E6E</color>
+    <color name="DNI_BtnBackTrueStroke">#E33A3A</color>
+    <color name="DNI_BtnBackFalseSolid">#414141</color>
+    <color name="DNI_BtnBackFalseStroke">#CDCDCD</color>
+
+    <color name="DNI_BtnTurnOnTrueSolid">#4AB29E</color>
+    <color name="DNI_BtnTurnOnTrueStroke">#2f8774</color>
+    <color name="DNI_BtnTurnOnFalseSolid">#414141</color>
+    <color name="DNI_BtnTurnOnFalseStroke">#CDCDCD</color>
+
+
+    <!--    Dialog No Question   -->
+    <color name="DNQ_Background">#424242</color>
+    <color name="DNQ_Image">#FFFFFF</color>
+    <color name="DNQ_HeaderText">#FFFFFF</color>
+    <color name="DNQ_DescriptionText">#FFFFFF</color>
+    <color name="DNQ_TextBtn">#FFFFFF</color>
+
+    <color name="DNQ_BtnBackTrueSolid">#FF6E6E</color>
+    <color name="DNQ_BtnBackTrueStroke">#E33A3A</color>
+    <color name="DNQ_BtnBackFalseSolid">#414141</color>
+    <color name="DNQ_BtnBackFalseStroke">#CDCDCD</color>
+
+    <color name="DNQ_BtnTurnOnTrueSolid">#4AB29E</color>
+    <color name="DNQ_BtnTurnOnTrueStroke">#2f8774</color>
+    <color name="DNQ_BtnCreateFalseSolid">#717171</color>
+    <color name="DNQ_BtnCreateFalseStroke">#CDCDCD</color>
+
+
+    <!--    Dialog Edit Game   -->
+    <color name="DEG_Background">#424242</color>
+    <color name="DEG_Image">#F6F6F6</color>
+    <color name="DEG_EditText">#FFFFFF</color>
+    <color name="DEG_HintText">#FFFFFF</color>
+    <color name="DEG_ButtonText">#FFFFFF</color>
+
+    <color name="DEG_EditTrueSolid">#848484</color>
+    <color name="DEG_EditTrueStroke">#10B8A7</color>
+    <color name="DEG_EditFalseSolid">#848484</color>
+    <color name="DEG_EditFalseStroke">#CBCBCB</color>
+
+    <color name="DEG_BtnBackTrueSolid">#FF6E6E</color>
+    <color name="DEG_BtnBackTrueStroke">#E33A3A</color>
+    <color name="DEG_BtnBackFalseSolid">#414141</color>
+    <color name="DEG_BtnBackFalseStroke">#CDCDCD</color>
+
+    <color name="DEG_BtnSaveTrueSolid">#4AB29E</color>
+    <color name="DEG_BtnSaveTrueStroke">#2f8774</color>
+    <color name="DEG_BtnSaveFalseSolid">#414141</color>
+    <color name="DEG_BtnSaveFalseStroke">#CDCDCD</color>
+
+
+
+    <!--    Activity Main Drawer   -->
+    <color name="AMD_background">#505050</color>
+    <color name="AMD_ItemText">#FFFFFF</color>
+    <color name="AMD_Image">#FFFFFF</color>
+    <color name="AMD_Text">#FFFFFF</color>
+    <color name="AMD_HeartImage">#FFFFFF</color>
+
+
+    <!--  nav_header_main   -->
+    <color name="NHM_image">#F1DFDFDF</color>
+    <color name="NHM_textColor">#F1E6E6E6</color>
+
+    <!-- Toast 5FD2F9 -->
+    <color name="FirstQToast_txt">#FFFFFF</color>
+    <color name="FirstQToast_background">#3747A5</color>
+    <color name="LastQToast_txt">#FFFFFF</color>
+    <color name="LastQToast_background">#3747A5</color>
+    <color name="CorrectAnswerToast_txt">#EEEEEE</color>
+    <color name="CorrectAnswerToast_background">#0E61AB</color>
+    <color name="FavoriteToast_txt">#FFFFFF</color>
+    <color name="FavoriteToast_background">#019594</color>
+    <color name="DeleteFavoriteToast_txt">#FFFFFF</color>
+    <color name="DeleteFavoriteToast_background">#019594</color>
+    <color name="EnterQuestionToast_txt">#FFFFFF</color>
+    <color name="EnterQuestionToast_background">#0674D5</color>
+    <color name="EnterAnswerToast_txt">#FFFFFF</color>
+    <color name="EnterAnswerToast_background">#0674D5</color>
+    <color name="ErrorToast_txt">#FFFFFF</color>
+    <color name="ErrorToast_background">#F23A35</color>
+    <color name="OneMoreBackToast_txt">#FFFFFF</color>
+    <color name="OneMoreBackToast_background">#F03732</color>
+
+    <color name="TurnOnImitationToast_txt">#FFFFFF</color>
+    <color name="TurnOnImitationToast_background">#B847D6</color>
+    <color name="TurnOffImitationToast_txt">#FFFFFF</color>
+    <color name="TurnOffImitationToast_background">#B847D6</color>
+    <color name="СurrentQuestionToast_txt">#FFFFFF</color>
+    <color name="СurrentQuestionToast_background">#0674D5</color>
+    <color name="ThisQRightToast_txt">#FFFFFF</color>
+    <color name="ThisQRightToast_background">#0674D5</color>
+
+    <color name="NoneSSToast_txt">#FFFFFF</color>
+    <color name="NoneSSToast_background">#F23A35</color>
+
+
+
+</resources>

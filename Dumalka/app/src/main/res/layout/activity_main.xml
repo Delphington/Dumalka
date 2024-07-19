@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MA_Background"
+    android:orientation="vertical"
+    tools:context=".Main.MainActivity">
+
+    <ImageView
+        android:id="@+id/ImageLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:src="@drawable/ic_d_start_logo" />
+
+    <Button
+        android:id="@+id/MA_BTN_Start"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:background="@drawable/btn_style_cont"
+        android:text="@string/MA_BtnStartText"
+        android:textAllCaps="false"
+        android:textColor="@color/MA_BtnText"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

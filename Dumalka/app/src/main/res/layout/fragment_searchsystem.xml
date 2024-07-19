@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SS_Background"
+    android:orientation="vertical"
+    tools:context=".Panel.SearchSystem.SearchSystemFragment">
+
+    <!-- Конфети -->
+    <nl.dionsegijn.konfetti.xml.KonfettiView
+        android:id="@+id/konfettiView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_13sdp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/CB_Google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SearchSystem_Google"
+            android:textColor="@color/SS_TextLightGray"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            android:thumb="@drawable/ss_switch_thumb"
+            app:showText="true"
+            app:track="@drawable/ss_switch_track" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/CB_Yandex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:text="@string/SearchSystem_Yandex"
+            android:textColor="@color/SS_TextLightGray"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            android:thumb="@drawable/ss_switch_thumb"
+            app:showText="true"
+            app:track="@drawable/ss_switch_track" />
+
+        <androidx.appcompat.widget.SwitchCompat
+
+            android:id="@+id/CB_Yahoo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:text="@string/SearchSystem_Yahoo"
+            android:textColor="@color/SS_TextLightGray"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            android:thumb="@drawable/ss_switch_thumb"
+            app:showText="true"
+            app:track="@drawable/ss_switch_track" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/CB_Swisscows"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:text="@string/SearchSystem_Swisscows"
+            android:textColor="@color/SS_TextLightGray"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            android:thumb="@drawable/ss_switch_thumb"
+            app:showText="true"
+            app:track="@drawable/ss_switch_track" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/CB_Excite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:text="@string/SearchSystem_Excite"
+            android:textColor="@color/SS_TextLightGray"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            android:thumb="@drawable/ss_switch_thumb"
+            app:showText="true"
+            app:track="@drawable/ss_switch_track" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/CB_Aol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:text="@string/SearchSystem_Aol"
+            android:textColor="@color/SS_TextLightGray"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            android:thumb="@drawable/ss_switch_thumb"
+            app:showText="true"
+            app:track="@drawable/ss_switch_track" />
+
+        <!-- Пасхалка-->
+        <ImageView
+            android:id="@+id/imitation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_48sdp"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

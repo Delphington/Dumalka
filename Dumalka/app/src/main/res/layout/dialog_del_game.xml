@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_340sdp"
+        android:layout_gravity="center"
+        android:background="@drawable/background_dialog_del_game"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_160sdp"
+            android:layout_height="@dimen/_160sdp"
+            android:src="@drawable/ic_light_24"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/HA_DialogHeaderText"
+            android:textColor="@color/AH_D_HeaderText"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_23sdp"
+            android:paddingRight="@dimen/_23sdp"
+            android:text="@string/HA_DialogDescription"
+            android:textColor="@color/AH_D_DescriptionText"
+            android:fontFamily="@font/lilita_one"
+            android:textSize="@dimen/_18sdp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:background="@drawable/dialog_style_noq_newq"
+            android:onClick="onCloseDialogDelGame"
+            android:paddingLeft="@dimen/_12sdp"
+            android:paddingRight="@dimen/_12sdp"
+            android:text="@string/HA_DialogButton"
+            android:textSize="@dimen/_12ssp"
+            android:textAllCaps="false"
+            android:textColor="@color/AH_D_ButtonText" />
+    </LinearLayout>
+
+</LinearLayout>

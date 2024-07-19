@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">Dumalka</string>
+
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- MainActivity    //-->
+    <string name="MA_BtnStartText">Начать</string>
+
+    <!-- Feedback Fragment    //-->
+    <string name="FF_Text">Мы специализируем на викторинах. Нам нравится читать отзывы от наших Пользователей.</string>
+    <string name="FF_BtnSent">Написать нам</string>
+
+
+    <!--  MainActivity2 //-->
+    <string name="MA2_TextLeft">Developed with</string>
+    <string name="MA2_TextRight">by Dumalka</string>
+
+
+    <!-- Drawer Menu    //-->
+    <string name="Drawer_Main">Главное</string>
+    <string name="Drawer_NewGame">Новая игра</string>
+    <string name="Drawer_SearchSystem">Поисковые системы</string>
+    <string name="Drawer_SentAuthor">Авторам</string>
+    <string name="Drawer_AboutApp">О приложении</string>
+    <!--    //-->
+
+    <!--   Title App //-->
+    <string name="menu_Home">Главное</string>
+    <string name="menu_NewGame">Новая Игра</string>
+    <string name="menu_SearchSystem">Поисковые Системы</string>
+    <string name="menu_SentAuthor">Обратная связь</string>
+    <string name="menu_AboutApp">FAQ</string>
+    <!--    //-->
+
+    <!--SearchSystem Fragment    //-->
+    <string name="SearchSystem_Text">Выбирете</string>
+    <string name="SearchSystem_Google">Google  </string>
+    <string name="SearchSystem_Yandex">Yandex</string>
+    <string name="SearchSystem_DuckDuckGo">DuckDuckGo</string>
+    <string name="SearchSystem_Yahoo">Yahoo</string>
+    <string name="SearchSystem_Swisscows">Swisscows</string>
+    <string name="SearchSystem_Excite">Excite</string>
+    <string name="SearchSystem_Aol">Aol</string>
+    <!--    //-->
+
+    <!--FAQ    //-->
+    <string name="FAQ_Text">Text</string>
+    <string name="FAQ_description">description</string>
+
+    <!--  HomeFragment  //-->
+    <string name="HF_Question_Text">Вопрос</string>
+    <string name="HF_MainText_Hint">Микрофон</string>
+    <string name="HF_Text_Hint">Микрофон</string>
+    <string name="HF_BtnNewQuestion">Новый вопрос</string>
+    <string name="HF_BtnSent">Отправить</string>
+    <string name="HF_BtnHistory">История</string>
+    <string name="HF_BtnNewGame">Новая игра</string>
+
+    <string name="HF_Number_1">А</string>
+    <string name="HF_Number_2">Б</string>
+    <string name="HF_Number_3">В</string>
+    <string name="HF_Number_4">Г</string>
+    <string name="HF_Probability">0,00</string>
+
+    <!--  History   Activity //-->
+    <string name="HA_Favorite">Избранное</string>
+    <string name="HA_Title">Ваши игры</string>
+    <string name="HA_Favorite_AllQ">Всего вопросов</string>
+    <string name="HA_Game">Игра </string>
+    <string name="HA_AllQ">Всего: </string>
+    <string name="HA_RightQ">Правильно: </string>
+    <string name="HA_UnRightQ">Неправильно: </string>
+    <string name="HA_DialogHeaderText">Внимание! </string>
+    <string name="HA_DialogDescription">После удаления игры и вопросы не восстанавливаются.</string>
+    <string name="HA_DialogButton">Хорошо</string>
+
+    <!--  Question Activity //-->
+    <string name="QA_NumberText">10</string>
+    <string name="QA_Text">Вопрос</string>
+
+    <!--  Favorite Activity //-->
+    <string name="FA_NumberText">10</string>
+    <string name="FA_Text">Вопрос</string>
+
+    <!--    Dialog No Internet   -->
+    <string name="DNITxt_Header">Нет сигнала!</string>
+    <string name="DNITxt_Description">Пожалуйста, проверьте подключение к интернету</string>
+    <string name="DNITxt_BtnBack">Назад</string>
+    <string name="DNITxt_BtnTurnOn">Включить</string>
+
+    <!--    Dialog No Question   -->
+    <string name="DNQTxt_Header">Внимание!</string>
+    <string name="DNQTxt_Description">В этой игре нет вопросов</string>
+    <string name="DNQTxt_BtnBack">Назад</string>
+    <string name="DNQTxt_BtnCreate">Создать вопрос</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!--    Dialog Edit Game   -->
+    <string name="DEG_BtnBackT">Отменить</string>
+    <string name="DEG_BtnNewQT">Сохранить</string>
+
+
+                    <!--    JAVA      -->
+
+<!--    FAQ -->
+    <string name="J_FAQ_Q_1">1. Как ведется статистика вопросов ?</string>
+    <string name="J_FAQ_A_1">После того как ответ был найден ботом, вы можете, кликнув на поле вероястности, пометить правильный ответ, и если он будет совпадать с ответом, который нашел бот,то он попадет в статистику как правильный.</string>
+
+    <string name="J_FAQ_Q_2">2. Когда приложение будет доступно на IOS ?</string>
+    <string name="J_FAQ_A_2">Если приложение превысит 500k скачиваний в HashStore.</string>
+    <string name="J_FAQ_Q_3">3. С какого Android доступно приложение ?</string>
+    <string name="J_FAQ_A_3">Приложение работает с версии android 6.0. Легко проверить систему вашего телефона -> настройки " + "-> об устройстве -> информация о программном обеспечение.</string>
+    <string name="J_FAQ_Q_4">4. Сколько вопросов может быть в игре ?</string>
+    <string name="J_FAQ_A_4">Не ограниченное количество.</string>
+    <string name="J_FAQ_Q_5">5. Что обозначает цифры напротив варинатов ответов ?</string>
+    <string name="J_FAQ_A_5">Это вероятность правильности варинтов ответов в процентах.</string>
+    <string name="J_FAQ_Q_6">6. Приложение является бесплатным ?</string>
+    <string name="J_FAQ_A_6">Да, приложение бесплатно и в нем нет премиум-версий.</string>
+    <string name="J_FAQ_Q_7">7. Как сообщить об ошибки в приложении ?</string>
+    <string name="J_FAQ_A_7">В меню выбрать Авторам, также альтернативный способ написать нам сюда - .... </string>
+    <string name="J_FAQ_Q_8">8. Нужен ли интернет при работе приложения ?</string>
+    <string name="J_FAQ_A_8">Конечно, Dumalka ищет ваш вопрос с помощью интернета, но также есть функции, которые доступны оффлайн.</string>
+
+    <!--    SentAuthor -->
+    <string name="J_SA_gmail">dumalkahelp@gmail.com</string>
+    <string name="J_SA_subject">Hi, Dumalka!</string>
+    <!--    Search System -->
+    <string name="J_SS_ToastOn">Ура! Режит имитации включен!</string>
+    <string name="J_SS_ToastOff">Режит имитации выключен!</string>
+    <!--    Home Fragment -->
+    <string name="J_HF_ToastFirst">Это первый вопрос</string>
+    <string name="J_HF_ToastLast">Это последний вопрос</string>
+    <string name="J_HF_ToastCorrect">Вы выбрали правильный ответ</string>
+    <string name="J_HF_ToastEnterMainQ">Введите вопрос</string>
+    <string name="J_HF_ToastEnterQ">Введите варианты ответов</string>
+    <string name="J_HF_ToastError">Ошибка:</string>
+    <string name="J_HF_ToastNoneSS">Включите поисковую систему</string>
+    <string name="J_HF_ToastCurrentQ">Закончите с текущем вопросом</string>
+    <string name="J_HF_TextQ">Вопрос</string>
+
+    <!--    Main Activity2 -->
+    <string name="J_MA2_Toast">Нажмите еще раз, чтобы выйти</string>
+    <string name="J_MA2_TB_F">Избранное</string>
+    <string name="J_MA2_TB_M">Главное</string>
+
+    <!--    History Activity -->
+    <string name="J_HA_TextFavoriteQ">Всего вопросов:</string>
+    <string name="J_HA_NumberG">Игра</string>
+    <string name="J_HA_AllQ">Всего:</string>
+    <string name="J_HA_CorrectQ">Правильно:</string>
+    <string name="J_HA_WrongQ">Неправильно:</string>
+    <string name="J_HA_MinTextToast">Название должно быть больше 1 символа</string>
+
+    <!--    Favorite Activity -->
+    <string name="J_JA_ToastCheck">Это правильный вопрос</string>
+
+    <!--    Question Activity -->
+    <string name="J_QA_NumberGame">Игра</string>
+    <string name="J_QA_SearchHint">Введите текст для поиска</string>
+    <string name="J_QA_ToastAdd">Вопрос добавлен в избранное</string>
+    <string name="J_QA_ToastNoAdd">Вопрос удален из избранного</string>
+    <string name="J_QA_ToastIsCheck">Это правильный вопрос</string>
+
+
+    <!--    Favorite Activity -->
+    <string name="J_FA_SearchHint">Введите текст для поиска</string>
+
+
+</resources>

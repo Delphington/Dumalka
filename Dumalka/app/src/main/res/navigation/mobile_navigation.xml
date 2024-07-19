@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.myitschool.vsu2021.daimidzenko.com.dumalka.Panel.Home.HomeFragment"
+        android:label="@string/menu_Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_searchsystem"
+        android:name="ru.myitschool.vsu2021.daimidzenko.com.dumalka.Panel.SearchSystem.SearchSystemFragment"
+        android:label="@string/menu_SearchSystem"
+        tools:layout="@layout/fragment_searchsystem" />
+
+    <fragment
+        android:id="@+id/nav_sentauthor"
+        android:name="ru.myitschool.vsu2021.daimidzenko.com.dumalka.Panel.SentAuthor.SentAuthorFragment"
+        android:label="@string/menu_SentAuthor"
+        tools:layout="@layout/fragment_sentauthor" />
+
+    <fragment
+        android:id="@+id/nav_aboutApp"
+        android:name="ru.myitschool.vsu2021.daimidzenko.com.dumalka.Panel.AboutApp.AboutAppFragment"
+        android:label="@string/menu_AboutApp"
+        tools:layout="@layout/fragment_aboutapp" />
+
+</navigation>

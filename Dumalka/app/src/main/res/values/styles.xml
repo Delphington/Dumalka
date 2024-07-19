@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Анимация-->
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+
+    <style name="ZeroQuestion">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/AH_TxtColor_No_Q</item>
+        <item name="android:textSize">@dimen/AH_LV_Txt</item>
+    </style>
+
+    <!-- TOAST   ==========================================-->
+
+    <style name="MinNameToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/MinNameToast_txt</item>
+        <item name="stTextSize">@dimen/MinNameToast_Txt_Size</item>
+        <item name="stColorBackground">@color/MinNameToast_background</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_error</item>
+        <item name="stLength">SHORT</item>
+        <item name="stRadius">@dimen/MinNameToast_Txt_Radius</item>
+    </style>
+
+
+    <style name="NoneSSToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/NoneSSToast_txt</item>
+        <item name="stTextSize">@dimen/NoneSSToast_Txt_Size</item>
+        <item name="stColorBackground">@color/NoneSSToast_background</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_error</item>
+        <item name="stLength">SHORT</item>
+        <item name="stRadius">@dimen/NoneSSToast_Txt_Radius</item>
+    </style>
+
+
+    <style name="FirstQToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/FirstQToast_txt</item>
+        <item name="stTextSize">@dimen/FirstQToast_Txt_Size</item>
+        <item name="stColorBackground">@color/FirstQToast_background</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_error</item>
+        <item name="stLength">SHORT</item>
+        LONG or SHORT
+        <item name="stRadius">@dimen/FirstQToast_Txt_Radius</item>
+    </style>
+
+    <style name="LastQToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/LastQToast_txt</item>
+        <item name="stTextSize">@dimen/LastQToast_Txt_Size</item>
+        <item name="stColorBackground">@color/LastQToast_background</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_error</item>
+        <item name="stLength">SHORT</item>
+        <item name="stRadius">@dimen/LastQToast_Txt_Radius</item>
+    </style>
+
+
+    <style name="CorrectAnswerToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/CorrectAnswerToast_txt</item>
+        <item name="stTextSize">@dimen/CorrectAnswerToast_Txt_Size</item>
+        <item name="stColorBackground">@color/CorrectAnswerToast_background</item>
+        <item name="stStrokeWidth">1.5dp</item>
+        <!--        <item name="stStrokeColor">#BCBCBC</item>-->
+        <item name="stIconStart">@drawable/ic_check</item>
+        <item name="stLength">SHORT</item>
+        <item name="stRadius">@dimen/CorrectAnswerToast_Txt_Radius</item>
+    </style>
+
+    <style name="FavoriteToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/FavoriteToast_txt</item>
+        <item name="stTextSize">@dimen/FavoriteToast_Txt_Size</item>
+        <item name="stColorBackground">@color/FavoriteToast_background</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_playlistadd</item>
+        <item name="stLength">SHORT</item>
+        <item name="stRadius">@dimen/FavoriteToast_Txt_Radius</item>
+    </style>
+
+
+    <style name="DeleteFavoriteToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/DeleteFavoriteToast_txt</item>
+        <item name="stTextSize">@dimen/DeleteFavoriteToast_Txt_Size</item>
+        <item name="stColorBackground">@color/DeleteFavoriteToast_background</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_favorite_del</item>
+        <item name="stLength">SHORT</item>
+        <item name="stRadius">@dimen/DeleteFavoriteToast_Txt_Radius</item>
+    </style>
+
+
+    <style name="EnterQuestionToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/EnterQuestionToast_txt</item>
+        <item name="stTextSize">@dimen/EnterQuestionToast_Txt_Size</item>
+        <item name="stColorBackground">@color/EnterQuestionToast_background</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_questiontoast</item>
+        <item name="stLength">SHORT</item>
+        <item name="stRadius">@dimen/EnterQuestionToast_Txt_Radius</item>
+    </style>
+
+    <style name="EnterAnswerToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/EnterAnswerToast_txt</item>
+        <item name="stTextSize">@dimen/EnterAnswerToast_Txt_Size</item>
+        <item name="stColorBackground">@color/EnterAnswerToast_background</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_questiontoast</item>
+        <item name="stLength">SHORT</item>
+        <item name="stRadius">@dimen/EnterAnswerToast_Txt_Radius</item>
+    </style>
+
+    <style name="ErrorToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/ErrorToast_txt</item>
+        <item name="stTextSize">@dimen/ErrorToast_Txt_Size</item>
+        <item name="stColorBackground">@color/ErrorToast_background</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_clear</item>
+        <item name="stLength">SHORT</item>
+        <item name="stRadius">@dimen/ErrorToast_Txt_Radius</item>
+    </style>
+
+    <style name="OneMoreBackToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/OneMoreBackToast_txt</item>
+        <item name="stTextSize">@dimen/OneMoreBackToast_Txt_Size</item>
+        <item name="stColorBackground">@color/OneMoreBackToast_background</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_rocket</item>
+        <item name="stLength">SHORT</item>
+        <item name="stRadius">@dimen/OneMoreBackToast_Txt_Radius</item>
+    </style>
+
+
+    <style name="TurnOnImitationToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/TurnOnImitationToast_txt</item>
+        <item name="stTextSize">@dimen/TurnOnImitationToast_Txt_Size</item>
+        <item name="stColorBackground">@color/TurnOnImitationToast_background</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_imitation</item>
+        <item name="stLength">SHORT</item>
+        <item name="stRadius">@dimen/TurnOnImitationToast_Txt_Radius</item>
+    </style>
+
+    <style name="TurnOffImitationToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/TurnOffImitationToast_txt</item>
+        <item name="stTextSize">@dimen/TurnOffImitationToast_Txt_Size</item>
+        <item name="stColorBackground">@color/TurnOffImitationToast_background</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_imitation</item>
+        <item name="stLength">SHORT</item>
+        <item name="stRadius">@dimen/TurnOffImitationToast_Txt_Radius</item>
+    </style>
+
+    <style name="СurrentQuestionToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/СurrentQuestionToast_txt</item>
+        <item name="stTextSize">@dimen/СurrentQuestionToast_Txt_Size</item>
+        <item name="stColorBackground">@color/СurrentQuestionToast_background</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_android</item>
+        <item name="stLength">SHORT</item>
+        <item name="stRadius">@dimen/СurrentQuestionToast_Txt_Radius</item>
+    </style>
+
+
+    <style name="ThisQRightToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/ThisQRightToast_txt</item>
+        <item name="stTextSize">@dimen/ThisQRightToast_Txt_Size</item>
+        <item name="stColorBackground">@color/ThisQRightToast_background</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stIconStart">@drawable/ic_rigthq</item>
+        <item name="stLength">SHORT</item>
+        <item name="stRadius">@dimen/ThisQRightToast_Txt_Radius</item>
+    </style>
+
+</resources>

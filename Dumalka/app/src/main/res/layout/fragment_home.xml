@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Main2Background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/FH_Background"
+    android:orientation="vertical"
+    tools:context=".Panel.Home.HomeFragment">
+
+    <!-- Конфенти  -->
+    <nl.dionsegijn.konfetti.xml.KonfettiView
+        android:id="@+id/konfettiView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Номер вопроса -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:background="@drawable/universal_layout"
+                android:orientation="horizontal"
+                android:padding="@dimen/_3sdp">
+
+                <ImageView
+                    android:id="@+id/Image_btn_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_style_imageback"
+                    android:src="@drawable/ic_back"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/text_question"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/HF_Question_Text"
+                    android:textColor="@color/FH_TextLightGray"
+                    android:textSize="@dimen/_20ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/Image_btn_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_style_imageback"
+                    android:src="@drawable/ic_next"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <!-- Вопрос -->
+            <LinearLayout
+                android:id="@+id/LinearLayout_Main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/right"
+                android:gravity="center"
+                android:minHeight="@dimen/_110sdp"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp">
+
+                <EditText
+                    android:id="@+id/Edit_Text_Main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:background="@null"
+                    android:hint="@string/HF_MainText_Hint"
+                    android:textColor="@color/FH_EditText"
+                    android:textColorHint="@color/FH_TextHint"
+                    android:textSize="@dimen/_16ssp" />
+
+                <ImageView
+                    android:id="@+id/Image_Btn_Main"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_style_imagemicro"
+                    android:src="@drawable/ic_mic"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </LinearLayout>
+            <!-- ================================================ -->
+            <!-- ================================================ -->
+            <!-- ================================================ -->
+
+            <!-- Блок ответов -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_style_answers"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:text="@string/HF_Number_1"
+                        android:textColor="@color/FH_TextLightGray"
+                        android:textSize="@dimen/_20ssp" />
+
+                    <EditText
+                        android:id="@+id/Edit_Text_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="8"
+                        android:background="@null"
+                        android:hint="@string/HF_Text_Hint"
+                        android:inputType="textMultiLine"
+                        android:maxWidth="@dimen/_170sdp"
+                        android:paddingStart="@dimen/_3sdp"
+                        android:textColor="@color/FH_EditText"
+                        android:textColorHint="@color/FH_TextHint"
+                        android:textSize="@dimen/_16ssp" />
+
+                    <ImageView
+                        android:id="@+id/Image_Btn_1"
+                        android:layout_width="@dimen/_45sdp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_style_imagemicro"
+                        android:src="@drawable/ic_mic"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/Text_View_1"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_45sdp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/HF_Probability"
+                        android:textColor="@color/FH_TextLightGray"
+                        android:textSize="@dimen/_18ssp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/layout_style_answers"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:text="@string/HF_Number_2"
+                        android:textColor="@color/FH_TextLightGray"
+                        android:textSize="@dimen/_20ssp" />
+
+                    <EditText
+                        android:id="@+id/Edit_Text_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="8"
+                        android:background="@null"
+                        android:hint="@string/HF_Text_Hint"
+                        android:inputType="textMultiLine"
+                        android:maxWidth="@dimen/_170sdp"
+                        android:paddingStart="@dimen/_3sdp"
+                        android:textColor="@color/FH_EditText"
+                        android:textColorHint="@color/FH_TextHint"
+                        android:textSize="@dimen/_16ssp" />
+
+                    <ImageView
+                        android:id="@+id/Image_Btn_2"
+                        android:layout_width="@dimen/_45sdp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_style_imagemicro"
+                        android:src="@drawable/ic_mic"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/Text_View_2"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_45sdp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/HF_Probability"
+                        android:textColor="@color/FH_TextLightGray"
+                        android:textSize="@dimen/_18ssp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/layout_style_answers"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:text="@string/HF_Number_3"
+                        android:textColor="@color/FH_TextLightGray"
+                        android:textSize="@dimen/_20ssp" />
+
+                    <EditText
+                        android:id="@+id/Edit_Text_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="8"
+                        android:background="@null"
+                        android:hint="@string/HF_Text_Hint"
+                        android:inputType="textMultiLine"
+                        android:maxWidth="@dimen/_170sdp"
+                        android:paddingStart="@dimen/_3sdp"
+                        android:textColor="@color/FH_EditText"
+                        android:textColorHint="@color/FH_TextHint"
+                        android:textSize="@dimen/_16ssp" />
+
+                    <ImageView
+                        android:id="@+id/Image_Btn_3"
+                        android:layout_width="@dimen/_45sdp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_style_imagemicro"
+                        android:src="@drawable/ic_mic"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/Text_View_3"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_45sdp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/HF_Probability"
+                        android:textColor="@color/FH_TextLightGray"
+                        android:textSize="@dimen/_18ssp" />
+
+                </LinearLayout>
+
+                <!-- 4____________________________________________________ -->
+                <LinearLayout
+                    android:id="@+id/LinearLayout_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/layout_style_answers"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:text="@string/HF_Number_4"
+                        android:textColor="@color/FH_TextLightGray"
+                        android:textSize="@dimen/_20ssp" />
+
+                    <EditText
+                        android:id="@+id/Edit_Text_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="8"
+                        android:background="@null"
+                        android:hint="@string/HF_Text_Hint"
+                        android:inputType="textMultiLine"
+                        android:maxWidth="@dimen/_170sdp"
+                        android:paddingStart="@dimen/_3sdp"
+                        android:textColor="@color/FH_EditText"
+                        android:textColorHint="@color/FH_TextHint"
+                        android:textSize="@dimen/_16ssp" />
+
+                    <ImageView
+                        android:id="@+id/Image_Btn_4"
+                        android:layout_width="@dimen/_45sdp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_style_imagemicro"
+                        android:src="@drawable/ic_mic"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/Text_View_4"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_45sdp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/HF_Probability"
+                        android:textColor="@color/FH_TextLightGray"
+                        android:textSize="@dimen/_18ssp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- ================================================ -->
+            <!-- ================================================ -->
+            <!-- ================================================ -->
+
+            <!-- Кнопки -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/FirstLinearForBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/Btn_new_q"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginEnd="@dimen/_3sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_style_newq"
+                        android:text="@string/HF_BtnNewQuestion"
+                        android:textAllCaps="false"
+                        android:textColor="@color/FH_TextLightBlack"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <Button
+                        android:id="@+id/Btn_Sent"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginStart="@dimen/FH_Btn_MS_ME"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_style_send"
+                        android:text="@string/HF_BtnSent"
+                        android:textAllCaps="false"
+                        android:textColor="@color/FH_TextLightBlack"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+                <!-- ================================================ -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/FirstLinearForBtn"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/newGame"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginEnd="@dimen/FH_SecondLinearBtn_Btn_ME"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_style_newgame"
+                        android:text="@string/HF_BtnNewGame"
+                        android:textAllCaps="false"
+                        android:textColor="@color/FH_TextLightBlack"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <Button
+                        android:id="@+id/Btn_History"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_weight="8"
+                        android:background="@drawable/btn_style_history"
+                        android:text="@string/HF_BtnHistory"
+                        android:textAllCaps="false"
+                        android:textColor="@color/FH_TextLightBlack"
+                        android:textSize="@dimen/_12ssp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!--  Место для будующей рекламы -->
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

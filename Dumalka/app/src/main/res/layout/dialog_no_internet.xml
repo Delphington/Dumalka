@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:id="@+id/sss"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_320sdp"
+        android:layout_gravity="center"
+        android:background="@drawable/background_dialog_nointernet"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_160sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_cloud_off"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/DNITxt_Header"
+                android:textSize="@dimen/_22ssp"
+                android:paddingTop="@dimen/_4sdp"
+                android:textStyle="bold"
+                android:textColor="@color/DNI_HeaderText"/>
+            <TextView
+                android:paddingTop="@dimen/_4sdp"
+                android:paddingLeft="@dimen/_18sdp"
+                android:paddingRight="@dimen/_18sdp"
+                android:textSize="@dimen/_18ssp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/DNI_DescriptionText"
+                android:fontFamily="@font/lilita_one"
+                android:text="@string/DNITxt_Description" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="@dimen/_18sdp"
+            android:paddingRight="@dimen/_18sdp"
+            android:paddingBottom="@dimen/_8sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/NoInternetBack"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/dialog_nointernetback"
+                android:text="@string/DNITxt_BtnBack"
+                android:textAllCaps="false"
+                android:textColor="@color/DNI_TextBtn"
+                android:textSize="@dimen/_12ssp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/dialog_nointernercont"
+                android:text="@string/DNITxt_BtnTurnOn"
+                android:id="@+id/onInternetTurnOn"
+                android:textAllCaps="false"
+                android:textColor="@color/DNI_TextBtn"
+                android:textSize="@dimen/_12ssp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

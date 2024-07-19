@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/AQ_A_NumberBackgroundSolid" />
+    <stroke
+        android:width="1dp"
+        android:color="@color/AF_A_NumberBackgroundStroke" />
+    <corners android:radius="@dimen/_10sdp" />
+    <padding
+        android:bottom="@dimen/_3sdp"
+        android:left="@dimen/_10sdp"
+        android:right="@dimen/_10sdp"
+        android:top="@dimen/_3sdp" />
+</shape>

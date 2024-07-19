@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearIdss"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_3sdp"
+    android:layout_marginLeft="@dimen/_3sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_3sdp"
+    android:orientation="vertical">
+
+    <com.guanaj.easyswipemenulibrary.EasySwipeMenuLayout
+        android:id="@+id/fullliner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentView="@+id/content"
+        app:rightMenuView="@+id/right">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:background="@color/AF_A_Background"
+            android:orientation="horizontal"
+            android:padding="@dimen/_8sdp">
+
+            <TextView
+                android:id="@+id/Txt_NumberOfQ"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/desing_question_number"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="@string/FA_NumberText"
+                android:textColor="@color/AF_A_NumberText"
+                android:textSize="@dimen/_22ssp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/LinearText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="9"
+                android:paddingStart="@dimen/_8sdp">
+
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textFavoriteQuestion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/FA_Text"
+                        android:textColor="@color/AF_A_Text"
+                        android:textSize="@dimen/_17sdp" />
+                </androidx.core.widget.NestedScrollView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/Favorite_check"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp" />
+
+        </LinearLayout>
+
+        <!--==================================================-->
+
+        <LinearLayout
+            android:id="@+id/right"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:background="@color/AF_A_BackgroundDelete"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/Fa_ChoiceFavorite"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_favorite_delete"
+                android:padding="@dimen/_10sdp" />
+
+        </LinearLayout>
+    </com.guanaj.easyswipemenulibrary.EasySwipeMenuLayout>
+
+
+</LinearLayout>
